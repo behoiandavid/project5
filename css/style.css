@@ -155,8 +155,6 @@ body {
   padding: 0 15px;
 }
 
-
-
 a {
   text-decoration: none;
   color: #191919;
@@ -196,25 +194,21 @@ a {
   align-items: center;
   gap: 60px;
   padding-left: 100px;
+  transition: 0.3s;
 }
 
 .header-descriptions :hover {
-  text-transform: uppercase;
-  text-shadow: 10px 5px 5px #202020;
-
+  color: #2E4FD7;
+  text-shadow: 4px 4px 4px #2E4FD7;
 }
 
 .header-descriptions {
   font-size: 17px;
   color: #1E1E1E;
   font-weight: 3px;
-
 }
 
-
-
 .header-right-text button {
-  border: solid #2E4FD7;
   background-color: #2E4FD7;
   height: 35px;
   width: 172px;
@@ -226,12 +220,13 @@ a {
   margin-top: 2px;
   cursor: pointer;
   margin-left: 190px;
+  transition: 0.3s;
 }
 
 .header-right-text :hover {
-  text-transform: uppercase;
-  color: #191919;
-  box-shadow: 10px 5px 5px #191919;
+  cursor: pointer;
+  background-color: #191919;
+  color: #FFFFFF;
 }
 
 .main-home {
@@ -246,7 +241,7 @@ a {
   display: flex;
   flex-direction: row;
   margin: 70px;
-  align-items: center;
+  align-items: stretch;
   margin-right: 10px;
   justify-content: center;
   width: 1148px;
@@ -254,7 +249,7 @@ a {
 }
 
 .main-home-descriptions1 p {
-  padding-top: 40px;
+  padding-top: 20px;
   font-size: 20px;
   line-height: 30px;
   width: 486px;
@@ -278,7 +273,6 @@ a {
 .main-home-description1-text2 {
   display: flex;
   flex-direction: row;
-  margin-top: 40px;
 }
 
 .main-home-description1-text2 button {
@@ -288,14 +282,14 @@ a {
   color: #FFFFFF;
   font-size: 16px;
   margin-top: 45px;
+  transition: 0.3s;
 
 }
 
 .main-home-button :hover {
   cursor: pointer;
-  text-transform: uppercase;
-  box-shadow: 10px 5px 5px #191919;
-  color: #191919;
+  background-color: #191919;
+  color: #0000CC;
 
 }
 
@@ -315,7 +309,7 @@ a {
   justify-content: flex-start;
   align-items: center;
   width: 403px;
-  height: 31px;
+  height: 30px;
 }
 
 .main-home-description1-logo1 img {
@@ -411,12 +405,13 @@ a {
   color: #FFFFFF;
   font-size: 16px;
   margin-top: 40px;
+  transition: 0.3s;
 }
 
 .main-block2-button :hover {
-  text-transform: uppercase;
-  box-shadow: 10px 5px 5px #191919;
-  color: #191919;
+  cursor: pointer;
+  background-color: #191919;
+  color: #0000CC;
 }
 
 .main-block3 {
@@ -488,7 +483,7 @@ a {
   font-style: normal;
   padding-top: 20px;
   color: #18191F;
-
+  padding-right: 5px;
 }
 
 
@@ -498,6 +493,7 @@ a {
   align-items: center;
   justify-content: center;
 }
+
 
 .main-block3-description-photo {
   padding-right: 40px;
@@ -509,7 +505,7 @@ a {
   align-items: center;
   justify-content: space-between;
   background-color: #E7EBFC;
-  height: 700px;
+  height: 600px;
   width: 1100px;
   padding-left: 100px;
 }

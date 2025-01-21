@@ -148,129 +148,43 @@ body {
     font-size: 16px;
 }
 
-.container {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-
 
 a {
     text-decoration: none;
     color: #191919;
 }
 
-
-
-.section-home2 {
-    background-color: #052825;
-}
-
-
-.header-pos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.header {
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    padding-top: 30px;
-    padding-bottom: 30px;
-
-}
-
-.header-logo {
-    padding-right: 100px;
-}
-
-.header-left-block {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-right: 500px;
-}
-
-.header-description {
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    align-items: center;
-    gap: 60px;
-}
-
-.header-descriptions :hover {
-    text-transform: uppercase;
-    text-shadow: 10px 5px 5px #202020;
-
-}
-
-.header-descriptions {
-    font-size: 17px;
-    color: #1E1E1E;
-    font-weight: 3px;
-
-}
-
-
-
-.header-right-text button {
-    border: solid #2E4FD7;
-    background-color: #2E4FD7;
-    height: 35px;
-    width: 172px;
-    bottom: 5px;
-    text-align: center;
-    color: #FFFFFF;
-    font-size: 15px;
-    border-radius: 1px;
-    margin-top: 2px;
-    cursor: pointer;
-}
-
-.header-right-text :hover {
-    text-transform: uppercase;
-    color: #191919;
-    box-shadow: 10px 5px 5px #191919;
-}
-
-
 .main-home2 {
     align-items: center;
     display: flex;
     justify-content: center;
     margin: auto;
-
+    flex-direction: column;
+    background-color: #052825;
+    color: #FFFFFF;
 }
-
-
 
 .main-home2-block1 {
     display: flex;
     flex-direction: row;
     margin: 70px;
-    align-items: center;
+    align-items: stretch;
     margin-right: 10px;
     justify-content: center;
-}
-
-.main-home2-descriptions1 {
-    padding-right: 750px;
+    width: 1148px;
+    margin-left: auto;
 }
 
 .main-home2-descriptions1 p {
-    padding-top: 40px;
+    padding-top: 20px;
     font-size: 20px;
     line-height: 30px;
+    width: 486px;
     color: #FFFFFF;
+}
+
+.main-home2-description1 {
+    width: 635px;
 }
 
 .main-home2-description1 h1 {
@@ -278,7 +192,9 @@ a {
     line-height: 73px;
     font-family: Inter;
     font-weight: 600;
+    color: #191919;
     letter-spacing: -1.16px;
+    padding-right: 140px;
     color: #FFFFFF;
 
 }
@@ -286,24 +202,23 @@ a {
 .main-home2-description1-text2 {
     display: flex;
     flex-direction: row;
-    margin-top: 40px;
 }
 
 .main-home2-description1-text2 button {
     background-color: #2E4FD7;
     height: 56px;
-    width: 248px;
+    width: 198px;
     color: #FFFFFF;
     font-size: 16px;
     margin-top: 45px;
+    transition: 0.3s;
 
 }
 
 .main-home2-button :hover {
     cursor: pointer;
-    text-transform: uppercase;
-    box-shadow: 10px 5px 5px #191919;
-    color: #191919;
+    background-color: #191919;
+    color: #0000CC;
 
 }
 
@@ -313,16 +228,263 @@ a {
     color: #1E1E1E;
     width: 310px;
     padding-top: 50px;
+    font-size: 16px;
+    padding-right: 40px;
     color: #FFFFFF;
 }
 
 .main-home2-description1-logo1 {
     margin-top: 90px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
+    width: 403px;
+    height: 30px;
 }
 
 .main-home2-description1-logo1 img {
-    padding-right: 60px;
+    padding-right: 20px;
+}
+
+.main-home2-block2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 70px;
+    height: 600px;
+
+}
+
+.main-home2-block2-left-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 555px;
+    padding-top: 70px;
+    margin-right: 60px;
+}
+
+.main-home2-block2-description1 h2 {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFFF;
+
+}
+
+.main-home2-block2-description1 p {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-top: 10px;
+
+
+}
+
+.main-home2-block2-description2 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+    padding-right: 15px;
+}
+
+.main-home2-block2-descriptions2 {
+    width: 270px;
+}
+
+.main-home2-block2-descriptions2 h2 {
+    font-size: 72px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.main-home2-block2-descriptions2 p {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFFF;
+    width: 223px;
+    padding: 10px;
+    line-height: 24px;
+}
+
+.main-home2-block2-right-block img {
+    height: 315px;
+    padding-right: 15px;
+
+
+}
+
+.main-home2-block3 {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.main-home2-block3-text {
+    font-size: 52px;
+    line-height: 62px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 580px;
+}
+
+.main-home2-block3-description {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-content: flex-start;
+    padding-right: 250px;
+    margin-left: 40px;
+    padding-top: 80px;
+
+
+}
+
+.main-home2-block3-descriptions img {
+    width: 40px;
+    height: 40px;
+}
+
+.main-home2-block3-descriptions {
+    width: 255px;
+    height: 213px;
+}
+
+.main-home2-block3-descriptions h2 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.main-home2-block3-descriptions p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFFF;
+    padding-top: 15px;
+}
+
+.main-home2-block4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E7EBFC;
+    height: 600px;
+    width: 1100px;
+    padding-left: 100px;
+    margin-top: 5%;
+}
+
+.main-home2-block4-block1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-top: 50px;
+}
+
+.main-home2-block4-block1 h2 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #191919;
+}
+
+.main-home2-block4-block1 p {
+    font-size: 42px;
+    color: #1E1E1E;
+    line-height: 52px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    width: 588px;
+    padding-top: 40px;
+    color: #1E1E1E;
+}
+
+.main-home2-block4-block1_2 {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.main-home2-block4-block1_2 a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #2E4FD7;
+}
+
+.main-home2-block5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 5%;
+}
+
+.main-home2-block5-text {
+    font-size: 42px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 52px;
+    color: #FFFFFF;
+    width: 730px;
+    padding-left: 30px;
+}
+
+.main-home2-block5-description {
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    gap: 2%;
+}
+
+.main-home2-block5-descriptions {
+    height: 210px;
+    padding-left: 20px;
+}
+
+.main-home2-block5-descriptions h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.main-home2-block5-descriptions p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+
+.main-home2-block5-descriptions img {
+    width: 252px;
+    height: 72px;
 }

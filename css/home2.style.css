@@ -1,0 +1,328 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: top;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Preconnect", sans-serif;
+    color: #212121;
+    letter-spacing: 0.9px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #191919;
+}
+
+
+
+.section-home2 {
+    background-color: #052825;
+}
+
+
+.header-pos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.header-logo {
+    padding-right: 100px;
+}
+
+.header-left-block {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 500px;
+}
+
+.header-description {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+}
+
+.header-descriptions :hover {
+    text-transform: uppercase;
+    text-shadow: 10px 5px 5px #202020;
+
+}
+
+.header-descriptions {
+    font-size: 17px;
+    color: #1E1E1E;
+    font-weight: 3px;
+
+}
+
+
+
+.header-right-text button {
+    border: solid #2E4FD7;
+    background-color: #2E4FD7;
+    height: 35px;
+    width: 172px;
+    bottom: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 15px;
+    border-radius: 1px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.header-right-text :hover {
+    text-transform: uppercase;
+    color: #191919;
+    box-shadow: 10px 5px 5px #191919;
+}
+
+
+.main-home2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+
+
+
+.main-home2-block1 {
+    display: flex;
+    flex-direction: row;
+    margin: 70px;
+    align-items: center;
+    margin-right: 10px;
+    justify-content: center;
+}
+
+.main-home2-descriptions1 {
+    padding-right: 750px;
+}
+
+.main-home2-descriptions1 p {
+    padding-top: 40px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.main-home2-description1 h1 {
+    font-size: 64px;
+    line-height: 73px;
+    font-family: Inter;
+    font-weight: 600;
+    letter-spacing: -1.16px;
+    color: #FFFFFF;
+
+}
+
+.main-home2-description1-text2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.main-home2-description1-text2 button {
+    background-color: #2E4FD7;
+    height: 56px;
+    width: 248px;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: 45px;
+
+}
+
+.main-home2-button :hover {
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 10px 5px 5px #191919;
+    color: #191919;
+
+}
+
+.main-home2-description1-text2 p {
+    padding-left: 30px;
+    line-height: 25px;
+    color: #1E1E1E;
+    width: 310px;
+    padding-top: 50px;
+    color: #FFFFFF;
+}
+
+.main-home2-description1-logo1 {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-home2-description1-logo1 img {
+    padding-right: 60px;
+}

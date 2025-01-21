@@ -162,27 +162,40 @@ a {
   color: #191919;
 }
 
-.header {
+.header-pos {
   display: flex;
   justify-content: space-between;
-  margin-top: 33px;
-  height: 80px;
-  flex-direction: row;
+  align-items: center;
 }
 
-.header-left-logo {
-  margin-left: 111px;
-  width: 168px;
+.header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+
+.header-left-block {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
 }
 
 .header-description {
   display: flex;
-  justify-content: space-between;
-  width: 450px;
-  margin-left: -550px;
-  margin-top: 10px;
-
-
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  gap: 60px;
+  padding-left: 100px;
 }
 
 .header-descriptions :hover {
@@ -201,7 +214,6 @@ a {
 
 
 .header-right-text button {
-  margin-right: 200px;
   border: solid #2E4FD7;
   background-color: #2E4FD7;
   height: 35px;
@@ -213,6 +225,7 @@ a {
   border-radius: 1px;
   margin-top: 2px;
   cursor: pointer;
+  margin-left: 190px;
 }
 
 .header-right-text :hover {
@@ -225,9 +238,8 @@ a {
   align-items: center;
   display: flex;
   justify-content: center;
-  max-width: 2000px;
   margin: auto;
-
+  flex-direction: column;
 }
 
 .main-block1 {
@@ -237,16 +249,19 @@ a {
   align-items: center;
   margin-right: 10px;
   justify-content: center;
-}
-
-.main-home-descriptions1 {
-  padding-right: 750px;
+  width: 1148px;
+  margin-left: auto;
 }
 
 .main-home-descriptions1 p {
   padding-top: 40px;
   font-size: 20px;
   line-height: 30px;
+  width: 486px;
+}
+
+.main-home-description1 {
+  width: 635px;
 }
 
 .main-home-description1 h1 {
@@ -256,6 +271,7 @@ a {
   font-weight: 600;
   color: #191919;
   letter-spacing: -1.16px;
+  padding-right: 140px;
 
 }
 
@@ -268,7 +284,7 @@ a {
 .main-home-description1-text2 button {
   background-color: #2E4FD7;
   height: 56px;
-  width: 248px;
+  width: 198px;
   color: #FFFFFF;
   font-size: 16px;
   margin-top: 45px;
@@ -289,26 +305,33 @@ a {
   color: #1E1E1E;
   width: 310px;
   padding-top: 50px;
+  font-size: 16px;
+  padding-right: 40px;
 }
 
 .main-home-description1-logo1 {
   margin-top: 90px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
+  width: 403px;
+  height: 31px;
 }
 
 .main-home-description1-logo1 img {
-  padding-right: 60px;
+  padding-right: 20px;
 }
 
 
 .main-block2 {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  margin: 110px;
+  max-width: 1114px;
+  flex-wrap: nowrap;
   justify-content: center;
+  align-items: flex-start;
+  align-items: stretch;
+
 }
 
 .main-block2-description1 {
@@ -316,13 +339,18 @@ a {
   justify-content: center;
   align-content: flex-start;
   flex-wrap: wrap;
+  width: 1114px;
+  padding-right: 175px;
+
 }
 
 .main-block2-descriptions1 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 40px;
+  padding: 20px;
+  width: 410px;
+
 
 }
 
@@ -334,7 +362,9 @@ a {
 
 .main-block2-description2 {
   padding-bottom: 30px;
-  padding-right: 100px;
+  margin-right: 16px;
+  width: 540px;
+  height: 346px;
 }
 
 .main-block2-description2 h2 {
@@ -343,7 +373,8 @@ a {
   line-height: 62px;
   font-weight: bold;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  padding-bottom: 70px;
+  width: 540px;
+  height: 186px;
 }
 
 .main-block2-description2 p {
@@ -352,6 +383,9 @@ a {
   line-height: 30px;
   padding-bottom: 80px;
   letter-spacing: -0.36px;
+  width: 445px;
+  height: 60px;
+  padding-top: 15px;
 }
 
 .main-block2-descriptions1 h2 {
@@ -372,10 +406,11 @@ a {
 
 .main-block2-button button {
   background-color: #2E4FD7;
-  width: 240px;
+  width: 213px;
   height: 56px;
   color: #FFFFFF;
   font-size: 16px;
+  margin-top: 40px;
 }
 
 .main-block2-button :hover {
@@ -389,27 +424,30 @@ a {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  width: 1110px;
+  height: 600px;
+
 }
 
 .main-block3-text1 h2 {
   font-size: 52px;
   font-weight: 700;
+  width: 1100px;
   line-height: 62px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  padding-right: 770px;
   color: #18191F;
   font-style: normal;
+  height: 62px;
 }
 
 .main-block3-all {
   display: flex;
   align-content: center;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
   gap: 30px;
   padding-top: 40px;
-  padding-left: 100px;
   flex-direction: column;
+  align-items: center;
+  width: 1110px;
 }
 
 .main-block3-description {
@@ -418,12 +456,13 @@ a {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-  margin-right: 250px;
+
 }
 
 .main-block3-description-photo {
   width: 72px;
   height: 72px;
+  border-radius: 100px;
 
 }
 
@@ -456,7 +495,8 @@ a {
 .main-block3-block {
   display: flex;
   flex-direction: row;
-  margin: 40px;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-block3-description-photo {
@@ -468,9 +508,9 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 250px;
   background-color: #E7EBFC;
-  height: 900px;
+  height: 700px;
+  width: 1100px;
   padding-left: 100px;
 }
 
@@ -521,8 +561,8 @@ a {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
-  align-items: center;
   height: 400px;
+  width: 1110px;
 }
 
 .main-block5-name h2 {
@@ -531,18 +571,19 @@ a {
   font-weight: 700;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #18191F;
-  padding-right: 930px;
+  width: 730px;
+
 
 }
 
 .main-block5-description {
-  margin-top: 100px;
+  margin-top: 40px;
   display: flex;
   align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
-  gap: 100px;
+  gap: 30px;
 
 }
 
@@ -552,7 +593,6 @@ a {
   color: #18191F;
   line-height: 34px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  padding-top: 20px;
 }
 
 .main-block5-description p {
@@ -560,10 +600,9 @@ a {
   line-height: 26px;
   font-weight: 400;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #18191F;
-  padding-top: 5px;
+
 }
 
-.main-block5-description-text{
-  width: 280px;
+.main-block5-description-text {
+  width: 250px;
 }

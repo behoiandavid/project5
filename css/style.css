@@ -171,11 +171,9 @@ a {
   justify-content: center;
   flex-wrap: nowrap;
   flex-direction: row;
-  padding-top: 30px;
-  padding-bottom: 30px;
-
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
-
 
 .header-left-block {
   display: flex;
@@ -183,7 +181,6 @@ a {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-
 }
 
 .header-description {
@@ -240,11 +237,10 @@ a {
 .main-block1 {
   display: flex;
   flex-direction: row;
-  margin: 70px;
+  margin: 4%;
   align-items: stretch;
-  margin-right: 10px;
   justify-content: center;
-  width: 1148px;
+  margin-right: 1%;
   margin-left: auto;
 }
 
@@ -416,10 +412,9 @@ a {
 
 .main-block3 {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   justify-content: center;
-  width: 1110px;
   height: 600px;
 
 }
@@ -437,12 +432,12 @@ a {
 
 .main-block3-all {
   display: flex;
-  align-content: center;
   gap: 30px;
-  padding-top: 40px;
+  padding-top: 3%;
   flex-direction: column;
   align-items: center;
-  width: 1110px;
+  flex-wrap: wrap;
+
 }
 
 .main-block3-description {

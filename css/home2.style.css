@@ -176,8 +176,8 @@ a {
     flex-direction: row;
     margin: 4%;
     align-items: stretch;
-    margin-right: 1%;
     justify-content: center;
+    margin-right: 1%;
     margin-left: auto;
 }
 
@@ -217,7 +217,6 @@ a {
     font-size: 16px;
     margin-top: 45px;
     transition: 0.3s;
-
 }
 
 .main-home2-button :hover {

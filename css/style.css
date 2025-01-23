@@ -260,9 +260,8 @@ a {
   line-height: 73px;
   font-family: Inter;
   font-weight: 600;
-  color: #191919;
   letter-spacing: -1.16px;
-  padding-right: 140px;
+  padding-right: 130px;
 
 }
 
@@ -279,7 +278,6 @@ a {
   font-size: 16px;
   margin-top: 45px;
   transition: 0.3s;
-
 }
 
 .main-home-button :hover {
@@ -309,7 +307,7 @@ a {
 }
 
 .main-home-description1-logo1 img {
-  padding-right: 20px;
+  padding-right: 1%;
 }
 
 

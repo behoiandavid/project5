@@ -148,6 +148,12 @@ body {
     font-size: 16px;
 }
 
+:root {
+    --darkgreen: #052825;
+    --newcar: #2E4FD7;
+    --lavender: #E7EBFC;
+    --padding: 2%;
+}
 
 a {
     text-decoration: none;

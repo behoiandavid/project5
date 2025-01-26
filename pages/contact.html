@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,48 +6,126 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Help</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contacts.style.css">
 </head>
 
 <body>
-    <header class="header">
-        <div class="header-left-logo">
-            <img src="../images/Logo.svg" alt="left-logo">
+    <div class="container">
+        <header class="header-pos">
+            <div class="header">
+                <div class="header-left-block">
+                    <div class="header-logo">
+                        <img src="../images/logo2.png" alt="left-logo">
+                    </div>
+                    <nav class="header-nav">
+                        <ul class="header-description">
+                            <li class="header-descriptions">
+                                <a href="../index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="header-descriptions">
+                                <a id="home2" href="../pages/home2.html">
+                                    Features
+                                </a>
+                            </li>
+                            <li class="header-descriptions">
+                                <a id="service_single" href="../pages/service_single.html">
+                                    Pricing
+                                </a>
+                            </li>
+                            <li class="header-descriptions">
+                                <a id="services_all" href="../pages/services_all.html">
+                                    About us
+                                </a>
+                            </li>
+                            <li class="header-descriptions">
+                                <a class="active" id="contact" href="../pages/contact.html">
+                                    Help
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header-right-text">
+                    <button class="button-logo-right"> Book A Meeting ➞ </button>
+                </div>
+            </div>
+        </header>
+    </div>
+    <main>
+        <div class="bc-gray ">
+            <section class="section1-help">
+                <div class="main-block1-help container">
+                    <div class="main-block1-help-description">
+                        <h2>Contact Us</h2>
+                        <p>If you have any questions about the subscription or are not sure which plan is right for you,
+                            contact our team and let’s schedule a call.</p>
+                    </div>
+                    <div class="main-block1-help-button">
+                        <div class="main-block1-help-button1">
+                            <button>
+                                <h2>Call us</h2>
+                                <p>(669) 984-9439</p>
+                            </button>
+                        </div>
+                        <div class="main-block1-help-button2">
+                            <button>
+                                <h2>Email us</h2>
+                                <p>hello@openthrive.com</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-block1-help-forms container">
+                    <div class="main-block-help-forms-text">
+                        <span>Let’s Talk 👋</span>
+                        <p>If you have any question or issue’s to use our product. Fill the form below. We’ll help you.
+                        </p>
+                    </div>
+                    <div class="form-main-help">
+                        <form>
+                            <div style="display: flex; flex-direction: row;
+                            flex-wrap: nowrap;
+                            align-items: center; gap: 6%;">
+                                <div
+                                    style="display: flex; flex-direction: column; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
+                                    <label for="name">Your name <span
+                                            style="color: #2E4FD7; font-weight: bolder;">*</span></label>
+                                    <input type="text" id="name" name="name" placeholder="Enter your name"
+                                        style="width: 190px; height: 52px; color:#B3B1B7 ; font-size: 14px; line-height: 16.94px; margin-top: 4%;">
+                                </div>
+                                <div
+                                    style="display: flex; flex-direction: column; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
+                                    <label for="text">Your email <span
+                                            style="color: #2E4FD7; font-weight: bolder;">*</span></label>
+                                    <input type="email" id="email" name="email" placeholder="Enter your email" required
+                                        style="width: 190px; height: 52px; color:#B3B1B7 ; font-size: 14px; line-height: 16.94px; margin-top: 4%;">
+                                </div>
+                            </div>
+                            <div style="margin-top: 5%;">
+                                <label for="topic">Choose one topic <span
+                                        style="color: #2E4FD7; font-weight: bolder;">*</span></label>
+                                <select id="topic" name="topic" required
+                                    style="width: 403px; height: 52px;color: #B3B1B7; font-size: 14px; line-height: 16.94px; margin-top: 4%;">
+                                    <option value="" disabled selected>Select one topic</option>
+                                </select>
+                            </div>
+                            <div style="margin-top: 4%;">
+                                <label for="text">Message <span style="color: #2E4FD7; font-weight: bolder;">*</span>
+                                </label>
+                                <input id="text" name=text" placeholder="Write your message" rows="4" required
+                                    style="width: 403px; height: 122px; padding-bottom: 21%; padding-left: 2%; color:#B3B1B7 ; font-size: 16px; line-height: 16.94px; margin-top: 4%;">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="main-block1-help-button3">
+                        <button>Contact Us</button>
+                    </div>
+                </div>
+            </section>
         </div>
-        <div>
-            <nav>
-                <ul class="header-description">
-                    <li class="header-descriptions">
-                        <a href="../index.html">
-                            Home
-                        </a>
-                    </li>
-                    <li class="header-descriptions">
-                        <a id="home2" href="../pages/home2.html">
-                            Features
-                        </a>
-                    </li>
-                    <li class="header-descriptions">
-                        <a id="service_single" href="../pages/service_single.html">
-                            Pricing
-                        </a>
-                    </li>
-                    <li class="header-descriptions">
-                        <a id="services_all" href="../pages/services_all.html">
-                            About us
-                        </a>
-                    </li>
-                    <li class="header-descriptions">
-                        <a class="active" id="contact" href="../pages/contact.html">
-                            Help
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="header-right-text">
-            <button class="button-logo-right"> Book A Meeting → </button>
-        </div>
-    </header>
+    </main>
 </body>
 
-</html>
+</html> -->

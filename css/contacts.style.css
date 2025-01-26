@@ -1,0 +1,303 @@
+/* *,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: top;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Preconnect", sans-serif;
+    color: #212121;
+    letter-spacing: 0.9px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+:root {
+    --newcar: #2E4FD7;
+    --padding: 2%;
+    --black: #000000;
+    --lavender: #E7EBFC;
+    --granitegray: #64626A;
+    --white: #FFFFFF;
+}
+
+p {
+    color: var(--granitegray);
+}
+
+h2 {
+    color: var(--black);
+}
+
+.bc-gray {
+    background-color: var(--lavender);
+}
+
+.main-block1-help {
+    padding: var(--padding);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.main-block1-help-description h2 {
+    font-size: 64px;
+    line-height: 72px;
+    font-weight: 700;
+}
+
+.main-block1-help-description p {
+    padding-top: 7%;
+    width: 490px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+
+}
+
+.main-block1-help-button {
+    margin-top: 10%;
+    width: 410px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 6%;
+    justify-content: center;
+}
+
+.main-block1-help-button1 button {
+    background-color: var(--newcar);
+    padding: 9%;
+    text-align: left;
+    width: 180px;
+    height: 74px;
+    cursor: pointer;
+}
+
+.main-block1-help-button1 h2 {
+    color: var(--lavender);
+    font-size: 14px;
+    line-height: 16.94px;
+    font-weight: 600;
+}
+
+.main-block1-help-button1 p {
+    color: var(--lavender);
+    font-size: 16px;
+    line-height: 19.36px;
+    padding-top: 3%;
+}
+
+.main-block1-help-button2 button {
+    background-color: var(--white);
+    padding: 9%;
+    text-align: left;
+    width: 205px;
+    height: 74px;
+    cursor: pointer;
+}
+
+.main-block1-help-button2 h2 {
+    color: var(--newcar);
+    font-size: 14px;
+    line-height: 16.94px;
+    font-weight: 600;
+}
+
+.main-block1-help-button2 p {
+    color: var(--newcar);
+    font-size: 16px;
+    line-height: 19.36px;
+    padding-top: 3%;
+}
+
+.main-block1-help-forms {
+    padding: var(--padding);
+    width: 487px;
+    height: 662px;
+    position: absolute;
+    z-index: 3;
+    right: 28.3%;
+    top: 11.5%;
+    background-color: var(--white);
+    border: 1px solid var(--lavender);
+    box-shadow: 1px 1px 1px var(--granitegray);
+}
+
+.main-block-help-forms-text span {
+    font-size: 28px;
+    line-height: 33.89px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.main-block-help-forms-text p {
+    padding-top: 4%;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    color: var(--granitegray);
+}
+
+.form-main-help {
+    padding-top: 10%;
+}
+
+.main-block1-help-button3 {
+    margin-top: 7%;
+    font-size: 16px;
+    line-height: 19.36px;
+    font-weight: 600;
+}
+
+.main-block1-help-button3 button {
+    width: 403px;
+    height: 56px;
+    cursor: pointer;
+    background-color: var(--newcar);
+    color: var(--white);
+    transition: 0.5s;
+}
+
+.main-block1-help-button3 :hover {
+    background-color: var(--black);
+    color: var(--newcar);
+} */
